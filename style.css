@@ -1,3 +1,32 @@
 body {
     background: lightgray;
 }
+.game-header{
+    border: 1px solid black;
+    margin: 10px;
+}
+.game-board{
+    height: 110px;
+    width: 220px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-top: 0px;
+    margin: 0 auto;
+}
+.game-board div{
+    height: 20px;
+    width: 20px;
+    background: white;
+    border: 1px solid rgba(125, 125, 125, 0.5);
+    margin: 0 auto;
+}
+.game-board-left{
+    border: 1px solid black;
+    margin: 10px;
+}
+.game-board-right{
+    border: 1px solid black;
+    margin: 10px;
+}
